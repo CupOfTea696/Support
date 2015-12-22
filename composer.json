@@ -1,0 +1,25 @@
+{
+    "name": "cupoftea/support",
+    "description": "The CupOfTea Support package.",
+    "license": "MIT",
+    "require": {
+        "cupoftea/package": "^1.2",
+        "illuminate/support": "^5.1",
+        "symfony/var-dumper": "2.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CupOfTea\\Support\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "CupOfTea696",
+            "email": "cupoftea696@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
