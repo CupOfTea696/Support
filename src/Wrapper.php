@@ -124,7 +124,7 @@ trait Wrapper
             case 4:
                 return $class::$method($args[0], $args[1], $args[2], $args[3]);
             default:
-                return call_user_func_array([$class, $method], $args);
+                return forward_static_call_array([$class, $method], $args);
         }
     }
 }
