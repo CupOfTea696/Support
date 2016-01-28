@@ -29,6 +29,7 @@ class Support
     {
         return [
             Str::class,
+            Model::class,
             Wrapper::class
         ];
     }
