@@ -18,7 +18,7 @@ class Support
      *
      * @const string
      */
-    const VERSION = '1.0.0';
+    const VERSION = '1.1.0';
     
     /**
      * Lists the classes provided by this package.
